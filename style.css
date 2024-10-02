@@ -8,6 +8,13 @@ html {
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -103,6 +110,10 @@ body {
         color: #fff;
         font-size: 20px;
         text-decoration: none;
+    }
+
+    .navbar-logo {
+        margin-right: 200px;
     }
 }
 
@@ -491,9 +502,5 @@ body {
     .social-icon {
         width: 40px;
         height: 40px;
-    }
-
-    .footer-copyright {
-        font-size: 14px;
     }
 }
